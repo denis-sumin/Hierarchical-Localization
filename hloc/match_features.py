@@ -8,6 +8,7 @@ from functools import partial
 from tqdm import tqdm
 import h5py
 import torch
+import torch.utils.data
 
 from . import matchers, logger
 from .utils.base_model import dynamic_load
